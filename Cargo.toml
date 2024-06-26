@@ -1,0 +1,10 @@
+[package]
+name = "opendal_incorrect_write_szie"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opendal = {version = "0.47.1", features = ["services-fs"]}
+tokio = {version = "1", features = ["full"]}
+anyhow = "*"
+futures = "*"
